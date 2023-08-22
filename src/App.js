@@ -1,8 +1,5 @@
-
-
 function App() {
-  return 
-
+  return <h1>re</h1>
 }
 
-export default App;
+export default App

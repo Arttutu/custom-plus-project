@@ -1,0 +1,6 @@
+export const roxo = "#5A007A"
+export const azul = "#3500C7"
+export const branco = "#fdfdfd"
+export const preto = "#0e0e0e"
+export const fontPrimaria = "'ADLaM Display', cursive"
+export const fontSecundaria = "'Permanent Marker', cursive"

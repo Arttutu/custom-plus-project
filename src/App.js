@@ -1,5 +1,7 @@
+import Cabecalho from "./Componentes/Cabecalho"
+
 function App() {
-  return <h1>re</h1>
+  return <Cabecalho />
 }
 
 export default App

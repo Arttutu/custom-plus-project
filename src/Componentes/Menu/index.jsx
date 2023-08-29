@@ -1,13 +1,20 @@
 import React from "react"
 import { styled } from "styled-components"
 import logo from "./customPlus.png"
-import { fontPrimaria, fontSecundaria } from "../UI/variaveis"
+import {
+  azul,
+  branco,
+  fontPrimaria,
+  fontSecundaria,
+  roxo,
+} from "../UI/variaveis"
 const BoxLogo = styled.div`
   display: flex;
   align-items: center;
   gap: 1em;
   font-size: 1.5em;
   font-family: ${fontPrimaria};
+  color: ${roxo};
 `
 const StyleUl = styled.ul`
   display: flex;
@@ -16,10 +23,11 @@ const StyleUl = styled.ul`
 `
 const StyleLi = styled.li`
   font-size: 1em;
+
   font-family: ${fontPrimaria};
 `
 const StyleLogo = styled.img`
-  width: 100px;
+  width: 80px;
 `
 const StyleNav = styled.nav`
   display: flex;
@@ -32,7 +40,7 @@ export default function Menu() {
     <StyleNav>
       <BoxLogo>
         <StyleLogo src={logo}></StyleLogo>
-        <h1>Custom +</h1>
+        <h1> Custom +</h1>
       </BoxLogo>
       <StyleUl>
         <StyleLi>home</StyleLi>
